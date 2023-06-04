@@ -59,7 +59,7 @@ public class Displayer {
         lines.add("");
         lines.add(ChatColor.GOLD + "Map: " + ChatColor.GRAY + match.getGameMap().getDisplayName());
         lines.add("");
-        lines.add(ChatColor.YELLOW + "ceedric.com");
+        lines.add("");
 
         EScoreboard scoreboard = apiPlayer.getScoreboard() == null ? apiPlayer.setScoreboard(apiPlayer.getUniqueID().toString(), lines.size()) : apiPlayer.getScoreboard();
         scoreboard.setTitle(ChatColor.DARK_AQUA + "" + ChatColor.BOLD + "Sieges");
